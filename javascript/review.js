@@ -2,8 +2,9 @@ function searchcompany() {
    var s = document.getElementById('add').value;
    document.getElementById("company").innerHTML = s;
 }
-funcrion prompterr(){
-    alert("Blog Not available");
+
+function prompterr(){
+    alert("Blog Not available yet! Stay Tuned...");
 }
 
 function gotohome(){
