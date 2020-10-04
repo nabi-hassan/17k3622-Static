@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: 'Dancing Script', cursive;
+}
+
+header {
+    background-color: lightgray;
+    height: 70%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    max-width: auto;
+    margin: 0px auto;
+}
+
+.fix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+    float: left;
+    margin-top: auto;
+    margin-left: 5%;
+
+}
+
+.navitems {
+    float: right;
+    margin-top: 40px;
+    margin-right: 5%;
+}
+
+.navitems li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.navitems li a {
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: 100;
+    padding: 6px;
+}
+
+.navitems li a:hover{
+    border-bottom: 4px #00B4CC solid;
+    color: #00B4CC;
+}
+
+.maincontent {
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.maincontent h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+span:hover{
+    color: #00B4CC;
+}
+
+.search {
+    width: 50%;
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.searchTerm {
+    width: 50%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+}
+
+.searchButton {
+    width: 100px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.maincontent {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.maincontent h1 {
+    margin: 0;
+    color: rgba(61, 61, 61, 0.589);
+    text-align: center;
+}
+
+span:hover{
+    color: #00B4CC;
+}
+
+.search {
+    width: 50%;
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.searchTerm {
+    width: 50%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+}
+
+.searchButton {
+    width: 100px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+h2{
+    color: black;
+}

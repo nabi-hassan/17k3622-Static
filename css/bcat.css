@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: 'Dancing Script', cursive;
+    background-color: white;
+}
+
+header {
+    height: 20%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    max-width: auto;
+    margin: 0px auto;
+}
+
+.fix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+    float: left;
+    margin-top: auto;
+    margin-left: 5%;
+
+}
+
+.navitems {
+    float: right;
+    margin-top: 40px;
+    margin-right: 5%;
+}
+
+.navitems li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.navitems li a {
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: 100;
+    padding: 6px;
+}
+
+.navitems li a:hover{
+    border-bottom: 4px #00B4CC solid;
+    color: #00B4CC;
+}
+hr{
+    width: 70%;
+}
+p{
+    text-align: center;
+}
+
+.categories a{
+    color: #00B4CC;
+}
+
+h1{
+    text-align: center;
+}
+
+.Categories {
+    display: grid;
+    width: 65%;
+    position: relative;
+    margin: auto;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: lightgrey;
+    padding: 10px;
+}
+.catgs {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    left: 50%;
+}
+.catgs a{
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+}
+.catgs a:hover{
+    border-bottom: 2px #00B4CC solid;
+    color: #00B4CC;
+}
