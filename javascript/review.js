@@ -4,7 +4,7 @@ function searchcompany() {
 }
 
 function gotohome(){
-    location.replace("home.html")
+    location.replace("index.html")
 }
 function gotoreview(){
     location.replace("review.html")
