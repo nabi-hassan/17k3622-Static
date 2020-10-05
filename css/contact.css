@@ -2,12 +2,12 @@ body {
     margin: 0;
     padding: 0;
     font-size: 17px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', cursive, Helvetica;
 }
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('../images/homepro.jpg');
-    height: 70vh;
+    height: 100vh;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -64,7 +64,7 @@ header {
 .maincontent {
     width: 100%;
     position: absolute;
-    top: 25%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%);
 }
@@ -73,96 +73,15 @@ header {
     margin: 0;
     color: white;
     text-align: center;
+    text-shadow: 0 0 5 black;
 }
 
 span:hover{
     color: #00B4CC;
 }
 
-.search {
-    width: 50%;
-    position: relative;
-    display: flex;
-    margin: auto;
-    justify-content: center;
-}
 
-.searchTerm {
-    width: 50%;
-    border: 3px solid #00B4CC;
-    border-right: none;
-    padding: 5px;
-    height: 20px;
-}
-
-.searchButton {
-    width: 100px;
-    height: 36px;
-    border: 1px solid #00B4CC;
-    background: #00B4CC;
-    text-align: center;
-    color: #fff;
-    cursor: pointer;
-    font-size: 20px;
-}
-
-span:hover{
-    color: #00B4CC;
-}
-
-.search {
-    width: 50%;
-    position: relative;
-    display: flex;
-    margin: auto;
-    justify-content: center;
-}
-
-.searchTerm {
-    width: 50%;
-    border: 3px solid #00B4CC;
-    border-right: none;
-    padding: 5px;
-    height: 20px;
-}
-
-.searchButton {
-    width: 100px;
-    height: 36px;
-    border: 1px solid #00B4CC;
-    background: #00B4CC;
-    text-align: center;
-    color: #fff;
-    cursor: pointer;
-    font-size: 20px;
-}
-h2{
-    color: black;
-}
-.review{
-    display: block;
-}
-#company{
-    text-align: center;
-}
-.footer {
-    position: relative;
-    height: 200px;
-    left: 0;
-    bottom: 0;
-    padding: 0;
-    width: 100%;
-    background-color: gray;
-    color: white;
-    text-align: center;
- }
- .footer p{
-     padding-top: 70px ;
- }
-
- 
-
-.review-text, select, textarea {
+input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -173,7 +92,7 @@ h2{
   resize: vertical;
 }
 
-.review-submit {
+input[type=submit] {
   background-color: #4CAF50;
   color: white;
   padding: 12px 20px;
@@ -182,7 +101,7 @@ h2{
   cursor: pointer;
 }
 
-.review-submit:hover {
+input[type=submit]:hover {
   background-color: #45a049;
 }
 

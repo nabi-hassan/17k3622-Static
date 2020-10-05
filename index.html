@@ -16,10 +16,10 @@
                     <ul class="navitems">
                         <li><a onclick="gotobrowsecategories()">Browse Categories</a> </li>
                         <li><a onclick="gotoblog()">Blog</a> </li>
-                        <li><a onclick="gotoreview()">Wrirw a Review</a> </li>
+                        <li><a onclick="gotoreview()">Write a Review</a> </li>
                         <li><a onclick="gotologin()">Log In</a> </li>
                         <li><a onclick="gotosignup()">Signup</a> </li>
-                        <li><a onclick="gotopro()">Are You A Home Pro?</a> </li>
+                        <li onclick="gotocontact()"><a>Contact Us</a> </li>
                     </ul>
                 </div>
             </nav>
@@ -88,6 +88,20 @@
         <div class="footer">
             <p>Web Programming Assignment</p>
           </div>
+          
+        <button class="open-button" onclick="openForm()">Chat</button>
+
+        <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h1>Chat</h1>
+
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+        </div>
 
     </body>
 </html>

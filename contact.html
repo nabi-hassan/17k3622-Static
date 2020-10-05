@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HomeStars | Find Home Professionals in Canada</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <script src="javascript/review.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar fix">
+                <a onclick="gotohome()">
+                    <img src="images/logo.png" alt="website logo" class="logo">
+                </a>
+
+                <ul class="navitems">
+                    <li onclick="gotobrowsecategories()"><a>Browse Categories</a> </li>
+                    <li onclick="gotoblog()"><a>Blog</a> </li>
+                    <li onclick="gotoreview()"><a>Write a Review</a> </li>
+                    <li onclick="gotologin()"><a>Log In</a></li>
+                    <li onclick="gotosignup()"><a>Signup</a></li>
+                    <li onclick="gotocontact()"><a>Contact Us</a> </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="maincontent">
+
+            <h1>Contact Form</h1>
+            <br>
+
+            <div class="container">
+                <form action="/action_page.php">
+                    <label for="fname" class="label"> First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname" class="label">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country" class="label">Country</label>
+                    <select id="country" name="country">
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="England">England</option>
+                    </select>
+
+                    <label for="subject" class="label">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>

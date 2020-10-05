@@ -1,7 +1,14 @@
 function searchcompany() {
    var s = document.getElementById('add').value;
+   s.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+     event.preventDefault();
+     document.getElementById("btn").click();
+    }
+  });
    document.getElementById("company").innerHTML = s;
 }
+
 
 function prompterr(){
     alert("Blog Not available yet! Stay Tuned...");
@@ -25,8 +32,8 @@ function gotologin(){
 function gotosignup(){
     location.replace("signup.html")
 }
-function gotopro(){
-    location.replace("pro.html")
+function gotocontact(){
+    location.replace("contact.html")
 }
 function gotoforpass(){
     location.replace("forpass.html")

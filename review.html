@@ -18,10 +18,10 @@
                         <ul class="navitems">
                             <li onclick="gotobrowsecategories()"><a>Browse Categories</a> </li>
                             <li onclick="gotoblog()"><a>Blog</a> </li>
-                            <li><a href="#">Write a Review</a> </li>
+                            <li onclick="gotoreview()"><a>Write a Review</a> </li>
                             <li onclick="gotologin()"><a>Log In</a></li>
                             <li onclick="gotosignup()"><a>Signup</a></li>
-                            <li onclick="gotopro()"><a>Are You A Home Pro?</a> </li>
+                            <li onclick="gotocontact()"><a>Contact Us</a> </li>
                         </ul>
                     </div>
                 </nav>
@@ -35,13 +35,35 @@
                     </h1><br>
                     <div class="search">
                         <input type="text" class="searchTerm" placeholder="Search a Company To Review" id="add">
-                        <button type="submit" class="searchButton" onClick="searchcompany()">Search</button>
+                        <button type="submit" class="searchButton" onClick="searchcompany()" id="btn">Search</button>
                      </div>
                 </div>
             </header>
         
         <div class="review">
-        <h2 id="company"></h2>
+            <h1 id="company"></h1>
+            <div class="container">
+                <form action="/action_page.php">
+                    <label for="fname" class="label"> First Name</label>
+                    <input class="review-text" type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname" class="label">Last Name</label>
+                    <input class="review-text" type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country" class="label">Country</label>
+                    <select id="country" name="country">
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="England">England</option>
+                    </select>
+
+                    <label for="subject" class="label">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input  class="review-submit" type="submit" value="Submit">
+                </form>
+            </div>
         </div>
         <div class="footer">
             <p>Web Programming Assignment</p>
