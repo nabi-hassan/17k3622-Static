@@ -153,3 +153,6 @@ span:hover{
     font-size: 10px;
     z-index: 10;
 }
+.blog:hover{
+    box-shadow: 4px 4px 4px #00B4CC;
+}
