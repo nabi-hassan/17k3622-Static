@@ -59,7 +59,6 @@ header {
 .navitems li a:hover{
     border-bottom: 4px #00B4CC solid;
     color: #00B4CC;
-    text-shadow: 2px 2px 4px grey;
 }
 
 .maincontent {
@@ -104,6 +103,8 @@ span:hover{
 }
 .blog{
     border: 1px solid gray;
+    box-shadow: 0 0 7px black;
+    cursor: pointer;
 }
 .blog h2{
     padding-left: 15px;
@@ -154,5 +155,19 @@ span:hover{
     z-index: 10;
 }
 .blog:hover{
-    box-shadow: 4px 4px 4px #00B4CC;
+    box-shadow: 0 0 30px #00B4CC;
 }
+.footer {
+    position: relative;
+    height: 200px;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+ }
+ .footer p{
+     padding-top: 70px ;
+ }

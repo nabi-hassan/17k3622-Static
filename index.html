@@ -11,7 +11,7 @@
         <header>
             <nav>
                 <div class="navbar fix">
-                    <img src="images/logo.png" alt="interior picture" class="logo">
+                    <img src="images/logo.png" alt="website logo" class="logo">
 
                     <ul class="navitems">
                         <li><a onclick="gotobrowsecategories()">Browse Categories</a> </li>
@@ -71,7 +71,23 @@
             <p>See full list of companies by category reviewed by homeowners</p><br>
             <hr>
         </div>
-        
+        <button class="open-button" onclick="openForm()">Chat</button>
+
+        <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h1>Chat</h1>
+
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+        </div>
+
+        <div class="footer">
+            <p>Web Programming Assignment</p>
+          </div>
 
     </body>
 </html>

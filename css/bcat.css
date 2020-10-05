@@ -78,7 +78,7 @@ p{
 
 h1{
     text-align: center;
-    text-shadow: 2px 2px 8px white;
+    text-shadow: 0 0 40px white;
 }
 
 .Categories {
@@ -108,3 +108,17 @@ h1{
     border-bottom: 2px #00B4CC solid;
     color: #00B4CC;
 }
+.footer {
+    position: relative;
+    height: 200px;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+ }
+ .footer p{
+     padding-top: 70px ;
+ }

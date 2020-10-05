@@ -31,3 +31,10 @@ function gotopro(){
 function gotoforpass(){
     location.replace("forpass.html")
 }
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}

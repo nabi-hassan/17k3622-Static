@@ -6,12 +6,11 @@ body {
 }
 
 header {
-    background-color: lightgray;
-    height: 70%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('../images/homepro.jpg');
+    height: 70vh;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
-    display: block;
 }
 
 .navbar {
@@ -65,7 +64,7 @@ header {
 .maincontent {
     width: 100%;
     position: absolute;
-    top: 15%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%);
 }
@@ -107,20 +106,6 @@ span:hover{
     font-size: 20px;
 }
 
-.maincontent {
-    width: 100%;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-.maincontent h1 {
-    margin: 0;
-    color: rgba(61, 61, 61, 0.589);
-    text-align: center;
-}
-
 span:hover{
     color: #00B4CC;
 }
@@ -157,3 +142,17 @@ h2{
 .review{
     display: block;
 }
+.footer {
+    position: relative;
+    height: 200px;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+ }
+ .footer p{
+     padding-top: 70px ;
+ }
