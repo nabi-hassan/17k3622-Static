@@ -13,7 +13,9 @@ function searchcompany() {
 function prompterr(){
     alert("Blog Not available yet! Stay Tuned...");
 }
-
+function promptmsg(){
+    alert("We'll Contact You Soon");
+}
 function gotohome(){
     location.replace("index.html")
 }
