@@ -221,3 +221,53 @@ p{
  .form-container .btn:hover, .open-button:hover {
    opacity: 1;
  }
+
+ .about{
+    width: 70%;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.feature01{
+    background-image: url('../images/feature1-1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    border: black 1px;
+}
+.feature02{
+    background-image: url('../images/feature1-2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    border: black 1px;
+}
+
+.feature01 h2{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px black, 0 0 5px black;
+}
+.feature02 h2{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    padding-top: 0%;
+    text-shadow: 0 0 5px white;
+}
+.feature01 h3{
+    text-align: center;
+    text-shadow: 0 0 10px black, 0 0 10px black;
+    color: white;
+    padding: 15px;
+}
+.feature02 h3{
+    text-align: center;
+    text-shadow: 0 0 5px black, 0 0 5px black;
+    color: white;
+}
